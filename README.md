@@ -19,3 +19,10 @@ For example, we can look at several widgets that we know of which are stateless 
 Now on the other hand, stateful widgets are dynamic. They allow us to create widgets which can dynamically change their content over time and don’t rely on static states which are passed in during their instantiation. This may change due to user input, some form of asynchronous response or reactively from another form of state change.
 
 For example, we can look at several widgets that we know of which are stateful widgets:
+
+### What is Scaffold?
+
+Scaffold Widget is the basic structure of Material Design, and it is needed in order to render the RaisedButton Widget. 
+Just like Container, Row, and Column, Scaffold provides the structure upon which you can render the other child widgets
+
+https://cdn-images-1.medium.com/max/800/1*DClNkXhM7QTdNdWVKuNZOw.png
