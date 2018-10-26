@@ -25,7 +25,7 @@ For example, we can look at several widgets that we know of which are stateful w
 Scaffold Widget is the basic structure of Material Design, and it is needed in order to render the RaisedButton Widget. 
 Just like Container, Row, and Column, Scaffold provides the structure upon which you can render the other child widgets
 
-### the widget hierarchy for the above look like
+### The widget hierarchy for the above look like
 
  ![](https://cdn-images-1.medium.com/max/800/1*DClNkXhM7QTdNdWVKuNZOw.png)
  
