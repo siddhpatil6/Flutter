@@ -29,17 +29,38 @@ Now on the other hand, stateful widgets are dynamic. They allow us to create wid
 
 For example, we can look at several widgets that we know of which are stateful widgets:
 
-### What is Scaffold?
+# What is Scaffold?
 
 Scaffold Widget is the basic structure of Material Design, and it is needed in order to render the RaisedButton Widget. 
 Just like Container, Row, and Column, Scaffold provides the structure upon which you can render the other child widgets
 
-### The widget hierarchy for the above look like
+# The widget hierarchy for the above look like
 
  ![](https://cdn-images-1.medium.com/max/800/1*DClNkXhM7QTdNdWVKuNZOw.png)
+
+# What is Container ?
+
+A convenience widget that combines common painting, positioning, and sizing widgets.
+
+The Container widget is used to contain a child widget with the ability to apply some styling properties.
+
+If the Container widget has no child it will automatically fill the given area on the screen, otherwise it will wrap the height & width of the given child element.
+
+NB: Container Widget should not render directly without any parent widget. You can use Center widget, Padding Widget, Column Widget, Row Widget or Scaffold Widget as parent.
+
+Lets start with en empty container and apply a red color property. The container will fill all the screen.
+
+```
+Center(
+  child: Container(
+    color: Colors.green,
+  ),
+);
+
+```
  
  
- ## Sub Widgets
+ # Sub Widgets
    1. Safe Area
    2. Expanded
    3. Wrap
