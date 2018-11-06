@@ -1,6 +1,15 @@
 # Flutter
 Just Learn Flutter Technology and Contribute
 
+# What is Widget?
+<b> Everything is a widget in Flutter!</b> <br>
+
+A widget in Flutter represents an immutable description of part of the user interface; all graphics, including text, shapes, and animations are created using widgets.<br>
+
+The Flutter contains two sets of widgets which conform to specific design languages. Material Design widgets implement Google’s design language of the same name, and Cupertino widgets imitate Apple’s iOS design. <br>
+
+<b> “Widgets are basically blocks for creating UI(Buttons, TopBar, Drawer, Cards…)” </b>
+
 # There are Basically Flutter works on two widget <br>
 ### 1. Statefull Widget <br>
 ### 2. Stateless Widget <br>
@@ -20,13 +29,47 @@ Now on the other hand, stateful widgets are dynamic. They allow us to create wid
 
 For example, we can look at several widgets that we know of which are stateful widgets:
 
-### What is Scaffold?
+# What is Scaffold?
 
 Scaffold Widget is the basic structure of Material Design, and it is needed in order to render the RaisedButton Widget. 
 Just like Container, Row, and Column, Scaffold provides the structure upon which you can render the other child widgets
 
-### The widget hierarchy for the above look like
+# The widget hierarchy for the above look like
 
  ![](https://cdn-images-1.medium.com/max/800/1*DClNkXhM7QTdNdWVKuNZOw.png)
+
+# What is Container ?
+
+A convenience widget that combines common painting, positioning, and sizing widgets.
+
+The Container widget is used to contain a child widget with the ability to apply some styling properties.
+
+If the Container widget has no child it will automatically fill the given area on the screen, otherwise it will wrap the height & width of the given child element.
+
+NB: Container Widget should not render directly without any parent widget. You can use Center widget, Padding Widget, Column Widget, Row Widget or Scaffold Widget as parent.
+
+Lets start with en empty container and apply a red color property. The container will fill all the screen.
+
+```
+Center(
+  child: Container(
+    color: Colors.green,
+  ),
+);
+
+```
  
  
+ # Sub Widgets
+   1. Safe Area
+   2. Expanded
+   3. Wrap
+   4. Animated Container
+   5. Opacity
+   6. FutureBuilder
+   7. FadeTransition
+   8. FloatingActionButton
+   9. PageView
+   10. Table
+   11. SliverAppBar
+   12. SliverList & SliverGrid
