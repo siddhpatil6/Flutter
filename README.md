@@ -30,3 +30,16 @@ Just like Container, Row, and Column, Scaffold provides the structure upon which
  ![](https://cdn-images-1.medium.com/max/800/1*DClNkXhM7QTdNdWVKuNZOw.png)
  
  
+ ## Sub Widgets
+   1. Safe Area
+   2. Expanded
+   3. Wrap
+   4. Animated Container
+   5. Opacity
+   6. FutureBuilder
+   7. FadeTransition
+   8. FloatingActionButton
+   9. PageView
+   10. Table
+   11. SliverAppBar
+   12. SliverList & SliverGrid
