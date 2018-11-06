@@ -1,6 +1,13 @@
 # Flutter
 Just Learn Flutter Technology and Contribute
 
+# What is Widget?
+<b> Everything is a widget in Flutter!</b> A widget in Flutter represents an immutable description of part of the user interface; all graphics, including text, shapes, and animations are created using widgets.
+
+The Flutter contains two sets of widgets which conform to specific design languages. Material Design widgets implement Google’s design language of the same name, and Cupertino widgets imitate Apple’s iOS design.
+
+<b> “Widgets are basically blocks for creating UI(Buttons, TopBar, Drawer, Cards…)” </b>
+
 # There are Basically Flutter works on two widget <br>
 ### 1. Statefull Widget <br>
 ### 2. Stateless Widget <br>
