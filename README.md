@@ -87,6 +87,10 @@ class Home extends StatelessWidget
 
 }
 ```
+# What is pubspec.yaml file?
+- It simillar build.gradle in android
+- Full form  - And Markup langauge
+- Contains information about configuration, dependencies,metadata.
 
 # There are Basically Flutter works on two widget <br>
 ### 1. Statefull Widget <br>
