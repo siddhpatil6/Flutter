@@ -14,7 +14,17 @@ Inflates app and show it on app screen.
 ```
 debugShowCheckedModeBanner : false
 ```
-
+* we can replace curly brackets { } into flat arrow (=>)
+```
+main()
+{
+ // statements
+}
+```
+Replace -
+```
+main = > // statements
+```
 # What is Widget?
 <b> Everything is a widget in Flutter!</b> <br>
 
