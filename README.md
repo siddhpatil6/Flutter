@@ -49,6 +49,45 @@ The Flutter contains two sets of widgets which conform to specific design langua
 11. Floating Action Button
 
 
+# 1. Container -
+1. Main Class
+```
+import 'package:container_demo/app_screens/Home.dart';
+import 'package:flutter/material.dart';
+
+void main()
+{
+    runApp(MaterialApp(
+      title: "Exploring UI Widgets",
+      debugShowCheckedModeBanner: false,
+      home: Home(),
+    ));
+}
+```
+
+2. Home Class
+```
+class Home extends StatelessWidget
+{
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+    child: Container(
+      padding: EdgeInsets.only(top: 5), // to give padding all over widget
+      margin: EdgeInsets.only(bottom: 5), // It is used to give margin at bottom
+      height: 200,
+      width: 200,
+      alignment: Alignment.center,
+      color: Colors.deepPurple,
+      child: Text("Hello Sameer",textDirection:TextDirection.ltr),
+
+
+    ));
+  }
+
+}
+```
+
 # There are Basically Flutter works on two widget <br>
 ### 1. Statefull Widget <br>
 ### 2. Stateless Widget <br>
