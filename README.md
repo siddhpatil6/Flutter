@@ -34,6 +34,21 @@ The Flutter contains two sets of widgets which conform to specific design langua
 
 <b> “Widgets are basically blocks for creating UI(Buttons, TopBar, Drawer, Cards…)” </b>
 
+# Commanly used widgets in flutter ?
+
+1. Row and Column
+2. Text
+3. Scafold
+4. Raised Button
+5. Alert Dialog
+6. Box Constraints
+7. Container
+8. Image
+9. Size, Margin and Padding
+10.ListView
+11.Floating Action Button
+
+
 # There are Basically Flutter works on two widget <br>
 ### 1. Statefull Widget <br>
 ### 2. Stateless Widget <br>
