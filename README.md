@@ -9,6 +9,11 @@ Entry Poiny of Application
 ### 2. runnApp() -
 Inflates app and show it on app screen.
 
+# Notes
+* To remove top left debug banner -
+```
+debugShowCheckedModeBanner : false
+```
 
 # What is Widget?
 <b> Everything is a widget in Flutter!</b> <br>
