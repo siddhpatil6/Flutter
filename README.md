@@ -16,14 +16,14 @@ debugShowCheckedModeBanner : false
 ```
 * we can replace curly brackets { } into flat arrow (=>)
 ```
-main()
+void main()
 {
- // statements
+  runapp()
 }
 ```
 Replace -
 ```
-main = > // statements
+main = > runapp()
 ```
 # What is Widget?
 <b> Everything is a widget in Flutter!</b> <br>
