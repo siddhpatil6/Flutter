@@ -25,6 +25,9 @@ Replace -
 ```
 main = > runapp()
 ```
+* To format code shortcut -
+- Mac . - Command + alt + l
+
 # What is Widget?
 <b> Everything is a widget in Flutter!</b> <br>
 
