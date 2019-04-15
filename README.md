@@ -29,7 +29,7 @@ main = > runapp()
 - Mac . - Command + alt + l
 
 * To Use ListView in app 
-- we cant use it as home for scorlable widget so we need use scafold and than u can use ListView in scafold body.
+- we cant use it in home for scorlable widget so we need use scafold and than u can use ListView in scafold body, so it may avoid overflow of screens.
 
 # What is Widget?
 <b> Everything is a widget in Flutter!</b> <br>
