@@ -4,7 +4,7 @@ Just Learn Flutter Technology and Contribute
 # Functions -
 
 ### 1. main() -
-Entry Poiny of Application
+Entry Point of Application
 
 ### 2. runnApp() -
 Inflates app and show it on app screen.
