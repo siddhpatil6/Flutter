@@ -168,3 +168,162 @@ Center(
 
 A single fixed-height row that typically contains some text as well as a leading or trailing icon.
 
+### title
+The title can take any widget, but it is generally going to be a Text widget.
+
+```
+ListTile(
+  title: Text('Horse'),
+)
+```
+
+### subtitle
+The subtitle is smaller text below the title.
+
+```
+ListTile(
+  title: Text('Horse'),
+  subtitle: Text('A strong animal'),
+)
+```
+
+### dense
+The dense parameter makes the text smaller and packs everything together.
+
+```
+ListTile(
+  title: Text('Horse'),
+  subtitle: Text('A strong animal'),
+  dense: true,
+)
+```
+### leading
+You can add an image or an icon to the start of the ListTile. This is usually a CircleAvatar or an Icon.
+
+```
+ListTile(
+  leading: CircleAvatar(
+    backgroundImage: NetworkImage(imageUrl),
+  ),
+  title: Text('Horse'),
+)
+```
+### leading with CircleAvatar
+
+```
+ListTile(
+  leading: Icon(Icons.home),
+  title: Text('House'),
+)
+```
+
+### trailing
+Setting the trailing places an image at the end of the ListTile. This is particularly useful for indicating a master-detail layout.
+
+```
+ListTile(
+  title: Text('Horse'),
+  trailing: Icon(Icons.keyboard_arrow_right),
+)
+```
+### contentPadding
+
+You can change how much the content is inset on the left and right (but not the top or bottom) by setting the contentPadding. The default is 16.0 but here we will set to 0.0:
+
+```
+ListTile(
+  title: Text('Horse'),
+  trailing: Icon(Icons.keyboard_arrow_right),
+  contentPadding: EdgeInsets.symmetric(horizontal: 0.0),
+)
+```
+
+### selected
+If a ListTile is selected, the color of the text and icons become the theme’s primary color.
+
+```
+ListTile(
+  title: Text('Horse'),
+  trailing: Icon(Icons.keyboard_arrow_right),
+  selected: true,
+)
+```
+
+### Gesture recognition
+ListTiles can detect taps or long presses if you include a callback for the onTap or onLongPress parameters. The splash animation is built in.
+
+```
+ListTile(
+  title: Text('Horse'),
+  onTap: () {
+    // do something
+  },
+  onLongPress: (){
+    // do something else
+  },
+)
+```
+### enabled
+You can disable gesture detection by setting enabled to false.
+
+```
+ListTile(
+  title: Text('Horse'),
+  onTap: () {
+    // this will not get called
+  },
+  enabled: false,
+)
+```
+### ListTile.divideTiles
+The static method divideTiles can be used to add a divider between the tiles. It is pretty faint. You have to look carefully.
+
+ListView(
+  children: ListTile.divideTiles(
+      context: context,
+      tiles: [
+        ListTile(
+          title: Text('Horse'),
+        ),
+        ListTile(
+          title: Text('Cow'),
+        ),
+        ListTile(
+          title: Text('Camel'),
+        ),
+        ListTile(
+          title: Text('Sheep'),
+        ),
+        ListTile(
+          title: Text('Goat'),
+        ),
+      ]
+  ).toList(),
+)
+### Supplemental code
+Here is the code if you would like to play around with it some more.
+
+code example demo
+main.dart
+
+import 'package:flutter/material.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'My App',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: Scaffold(
+        appBar: AppBar(title: Text('ListTile guide')),
+        body: BodyWidget(),
+      ),
+    );
+  }
+}
+
