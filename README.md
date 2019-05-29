@@ -277,7 +277,7 @@ ListTile(
 ```
 ### ListTile.divideTiles
 The static method divideTiles can be used to add a divider between the tiles. It is pretty faint. You have to look carefully.
-
+```
 ListView(
   children: ListTile.divideTiles(
       context: context,
@@ -300,12 +300,13 @@ ListView(
       ]
   ).toList(),
 )
+```
 ### Supplemental code
 Here is the code if you would like to play around with it some more.
 
 code example demo
 main.dart
-
+```
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -326,4 +327,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
+```
