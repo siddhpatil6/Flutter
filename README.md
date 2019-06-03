@@ -332,5 +332,12 @@ class MyApp extends StatelessWidget {
 # Using Stateful Widget
 1. Create Class that extends a "StatefullWidget",that returns state in "createState".
 2. Create a "State" class, with properties that may change.
-3. WITHIN "State" Class, implements the "build" method.
+3. witihin "State" Class, implements the "build" method.
 4. call the setState() to make the changes. calling setState() tells framework to redraw widget.
+
+# State 
+The state is information that can read synchronously when widget is built and might change during the lifetime of widget.
+
+## Note : 
+Classes that inherits "StatefulWidget" are immutable.
+but the state is mutable.
